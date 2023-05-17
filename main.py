@@ -46,9 +46,6 @@ def button_action():
             elif bmi > 39.9:
                 result = "Extreme Obesity"
             label3.config(text=f"Your BMI is {int(bmi)}, you are {result}")
-        else:
-            label3.config(text="Height or weight cannot be negative")
-
     else:
         label3.config(text="Please enter valid number!")
 
